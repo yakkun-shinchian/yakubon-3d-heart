@@ -40,3 +40,12 @@ Codex内蔵ブラウザ（IAB）で確認。実機Safariの検証ではありま
 - 曲線は流線／中心線の実測値ではなく模式図。区間ごとに粒子が反復し、同一血球の追跡・心拍・弁の開閉・実際の流速を示さない。
 
 公開状態は学習用プレビュー。医学監修・実機検証が済んだとは表記しない。
+
+## 公開確認
+
+- URL: https://yakkun-shinchian.github.io/yakubon-3d-heart/
+- 公開コード: `acf0d595b95aa8a246d874c78c25712af7321616`。
+- [GitHub Actions](https://github.com/yakkun-shinchian/yakubon-3d-heart/actions/runs/36582424548)でテスト・ビルド・deploy成功。
+- 公開URLをIABで開いて18構造をロード。血流の表示時刻が4.6656→1.6006へ反復をまたいで進み、一時停止後はpausedになったことを確認。コンソールerror / warnなし。
+- 公開画面を `output/3d-heart-v2-flow.png` に保存。
+- Actions依存のNode 20非推奨通知とubuntu-latest移行予告あり。今回のビルド・公開は成功。アプリの実行時エラーではない。
