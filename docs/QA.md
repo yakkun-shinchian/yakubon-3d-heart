@@ -19,6 +19,8 @@ Codex内蔵ブラウザ（IAB）でlocalhostを表示。Playwright Chromiumへ�
 - 右心房の非表示→選択による再表示を確認。
 - 不透明度スライダーを100%へ操作し、値の更新を確認。
 - キーボード回転・ズームとリセットを確認。
+- モデル本体のクリックで右心室の選択が変わることを確認。ドラッグ後に視点が変わり、誤って選択が変わらないことを画面で確認。
+- 4弁と大血管5群の全選択ボタンで、選択名・説明の更新を確認。
 - PC 1536×1024、スマートフォン相当390×844、iPad相当820×1180を表示。390pxと820pxでdocumentの横幅超過なし。
 - 同じ端末上のSafari操作はMacロックで確認できず。実機iPad/iPhoneの指操作は未確認。
 
@@ -46,3 +48,11 @@ Codex内蔵ブラウザ（IAB）でlocalhostを表示。Playwright Chromiumへ�
 4. 低メモリ端末での連続操作。
 
 医学監修と実機試験が済んだという表現はしない。
+
+## 公開確認
+
+- 公開URL: https://yakkun-shinchian.github.io/yakubon-3d-heart/
+- [GitHub Actions公開成功](https://github.com/yakkun-shinchian/yakubon-3d-heart/actions/runs/36569842799)。初回はPages有効化前にdeployが実行され404。Pages有効化後の再実行で成功。
+- 公開HTMLとGLBの取得成功。公開GLBとローカルのSHA-256が一致: `3b7812a9d5a243cefd60da7e4c0e028967825bb463d25806543b7e33a2a45f28`。
+- 公開URLをIABで開き、モデルのロード完了、弁を上からの表示、初期表示へのリセットを確認。
+- 最終成果物の画面: `output/3d-heart-v1-desktop.png`、`output/3d-heart-v1-valves.png`、`output/3d-heart-v1-mobile.png`。UI参考画像と最終PC画面を同じ1536×1024で再度 `view_image` 比較済み。

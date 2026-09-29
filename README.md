@@ -4,6 +4,8 @@
 
 新人看護師・看護学生が、心臓を回し、透かし、構造を選んで位置関係を学ぶWeb教材です。ブラウザで利用でき、閲覧者によるソフトのインストールは不要です。
 
+**[学習用プレビューを開く](https://yakkun-shinchian.github.io/yakubon-3d-heart/)** · [GitHubリポジトリ](https://github.com/yakkun-shinchian/yakubon-3d-heart)
+
 ## 現在の機能
 
 - 360°回転、ズーム、パン。タッチは1本指で回転、2本指でピンチ／パン。
