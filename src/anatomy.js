@@ -3,6 +3,7 @@ export const categories = [
   { id: 'valves', label: '弁', note: '心腔と大血管を薄く表示しています。弁尖は静止した形状です。' },
   { id: 'vessels', label: '大血管', note: '背面に回すと、左心房へ戻る肺静脈を確認できます。' },
   { id: 'coronary', label: '冠動脈', note: '心筋を透かして、冠動脈の走行をたどりましょう。' },
+  { id: 'flow', label: '血流', note: '粒子と矢印で流れの向きを示します。心拍や流速のシミュレーションではありません。' },
 ];
 const specs = [
   ['ra','chambers','右心房','RA','Right Atrium','#4688c9','全身から戻る血液を受け取る心腔。上・下大静脈とのつながりを見てみましょう。','前面から見て左側が、身体の右です。'],
