@@ -1,0 +1,432 @@
+{
+  "source": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+  "retrieved": "2026-09-29",
+  "license": "CC-BY-4.0",
+  "licenseURL": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+  "archiveSHA256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "transform": "[(x-20)*0.025,(z-1240)*0.025,-(y+115)*0.025]; +X patient left, +Y superior, +Z anterior",
+  "structures": [
+    {
+      "id": "ra",
+      "category": "chambers",
+      "color": "#4688c9",
+      "fma": [
+        "FMA11359"
+      ],
+      "elements": [
+        {
+          "id": "FJ2424",
+          "name": "cavity of right atrium",
+          "sha256": "53739664c1d4a5bb635ca48c216b54deb16bb947d76a4ad75635adf69c8fa11c"
+        }
+      ],
+      "triangles": 2244
+    },
+    {
+      "id": "rv",
+      "category": "chambers",
+      "color": "#75b9dd",
+      "fma": [
+        "FMA9291"
+      ],
+      "elements": [
+        {
+          "id": "FJ2423",
+          "name": "cavity of right ventricle",
+          "sha256": "f0d7cbf9e10c0fcefe96741700605e7080d4a627fe214b4c8d5647d970e085f7"
+        }
+      ],
+      "triangles": 1918
+    },
+    {
+      "id": "la",
+      "category": "chambers",
+      "color": "#e67c97",
+      "fma": [
+        "FMA9465"
+      ],
+      "elements": [
+        {
+          "id": "FJ2425",
+          "name": "cavity of left atrium",
+          "sha256": "d93197cc47f47d6d084de017917c88de039a4ab632b421893cede03264f43384"
+        }
+      ],
+      "triangles": 1064
+    },
+    {
+      "id": "lv",
+      "category": "chambers",
+      "color": "#cf5367",
+      "fma": [
+        "FMA9466"
+      ],
+      "elements": [
+        {
+          "id": "FJ2422",
+          "name": "cavity of left ventricle",
+          "sha256": "8844c5fc464d23fdc785d1d254d666a4d3b70b14b73ec90ca0c77ba4aff3dd37"
+        }
+      ],
+      "triangles": 1722
+    },
+    {
+      "id": "tricuspid",
+      "category": "valves",
+      "color": "#f2be52",
+      "fma": [
+        "FMA7238",
+        "FMA7239",
+        "FMA7240"
+      ],
+      "elements": [
+        {
+          "id": "FJ2421",
+          "name": "anterior leaflet of tricuspid valve",
+          "sha256": "7303c55e6d9c2e294759f7f7e01d23fc120eba74bce9ade0a01cc4bdb2bd4200"
+        },
+        {
+          "id": "FJ2433",
+          "name": "posterior leaflet of tricuspid valve",
+          "sha256": "6519afbf9aa2eb3c0dc25d8e332a0208fd2ad68956c1dfe1ef6b010f04984d55"
+        },
+        {
+          "id": "FJ2436",
+          "name": "septal leaflet of tricuspid valve",
+          "sha256": "f0572079c56ea2a00eff869b07c4910defd624c5bda3fddd2403e4f1831f6be1"
+        }
+      ],
+      "triangles": 17612
+    },
+    {
+      "id": "pulmonary-valve",
+      "category": "valves",
+      "color": "#75cfbd",
+      "fma": [
+        "FMA7247",
+        "FMA7249",
+        "FMA7250"
+      ],
+      "elements": [
+        {
+          "id": "FJ2417",
+          "name": "left anterior cusp of pulmonary valve",
+          "sha256": "12d2dccc78efa7d21f6f4af53ae08603be473613ec4e04b0beb9c0239b96da56"
+        },
+        {
+          "id": "FJ2434",
+          "name": "right anterior cusp of pulmonary valve",
+          "sha256": "ed432a90e8fbfe9742d524044c0bd20c165f2a9a820ee585f00635cc47c5b5c0"
+        },
+        {
+          "id": "FJ2427",
+          "name": "posterior cusp of pulmonary valve",
+          "sha256": "eb867fa648f3da04036d925e6a740d4e3a922b893d74a20dec40d8d763a18414"
+        }
+      ],
+      "triangles": 3638
+    },
+    {
+      "id": "mitral",
+      "category": "valves",
+      "color": "#f39861",
+      "fma": [
+        "FMA7242",
+        "FMA7243"
+      ],
+      "elements": [
+        {
+          "id": "FJ2420",
+          "name": "anterior leaflet of mitral valve",
+          "sha256": "f0294cbbd35096d1df5e8bdc92f17dbed5ebf981e62024a07e7ca18e31eb1a94"
+        },
+        {
+          "id": "FJ2432",
+          "name": "posterior leaflet of mitral valve",
+          "sha256": "0b296151ecceff395da5c435bcf65cf6dfca390e72eb0be71d778fee84bc216b"
+        }
+      ],
+      "triangles": 11378
+    },
+    {
+      "id": "aortic-valve",
+      "category": "valves",
+      "color": "#b09ce4",
+      "fma": [
+        "FMA7252",
+        "FMA7253",
+        "FMA7254"
+      ],
+      "elements": [
+        {
+          "id": "FJ2431",
+          "name": "right posterior cusp of aortic valve",
+          "sha256": "40ae6e23decbb5fe2ea3800d44d517302f219078266abd8dcbc7d86ebc246799"
+        },
+        {
+          "id": "FJ2435",
+          "name": "anterior cusp of aortic valve",
+          "sha256": "b498ef286aa1ba0bfeaf2114298f43078007beab66fc81f422ff6017c309bd7a"
+        },
+        {
+          "id": "FJ2426",
+          "name": "left posterior cusp of aortic valve",
+          "sha256": "86fa5ef6decf47a91d33f826e1b5579bbecd94795c206b2d797f52c36c3e1020"
+        }
+      ],
+      "triangles": 2150
+    },
+    {
+      "id": "aorta",
+      "category": "vessels",
+      "color": "#cf5367",
+      "fma": [
+        "FMA3736",
+        "FMA3768"
+      ],
+      "elements": [
+        {
+          "id": "FJ3413",
+          "name": "ascending aorta",
+          "sha256": "764f23e432a9308e0780c586f9d1638db1fbcc52a5019ae61817b4b1de323870"
+        },
+        {
+          "id": "FJ3411",
+          "name": "arch of aorta",
+          "sha256": "9eeb5e5a627e8145f03961c661c9c66d8fdc55ed1234d04b84212b87a21d902c"
+        }
+      ],
+      "triangles": 1066
+    },
+    {
+      "id": "pa",
+      "category": "vessels",
+      "color": "#6fa8d4",
+      "fma": [
+        "FMA8612",
+        "FMA50872",
+        "FMA50873"
+      ],
+      "elements": [
+        {
+          "id": "FJ2966",
+          "name": "pulmonary trunk",
+          "sha256": "7d4fbfbeebdb541b4053e62e6ba9e55bdbc8d1354de8192f94d7c6008812ab3f"
+        },
+        {
+          "id": "FJ3019",
+          "name": "right pulmonary artery",
+          "sha256": "c773fc2d3d3f79544699c16f38f56619730a6d5a1a2c8bb4d8f0dc2ab6889d97"
+        },
+        {
+          "id": "FJ2924",
+          "name": "left pulmonary artery",
+          "sha256": "0cb5312cf816387fdad0d3809a5b5cae1445806ce85546adea39240bc72d2580"
+        }
+      ],
+      "triangles": 7430
+    },
+    {
+      "id": "pv",
+      "category": "vessels",
+      "color": "#e67c97",
+      "fma": [
+        "FMA49911",
+        "FMA49913",
+        "FMA49914",
+        "FMA49916"
+      ],
+      "elements": [
+        {
+          "id": "FJ3040",
+          "name": "right inferior pulmonary vein",
+          "sha256": "2e15b98f227f16c3dcacab1a93a26d42e07cd2c2d72ba34b1ef438396f598a12"
+        },
+        {
+          "id": "FJ2944",
+          "name": "left inferior pulmonary vein",
+          "sha256": "a531b898f54ae008b1ad0c0f0993158e1a15cfbebee79098033ea8c2d2f84372"
+        },
+        {
+          "id": "FJ2950",
+          "name": "left inferior pulmonary vein",
+          "sha256": "f32bbffccdb0528ed085041ad4243b5b4817a26aa82a73669f9132d6c54f17de"
+        },
+        {
+          "id": "FJ2955",
+          "name": "left inferior pulmonary vein",
+          "sha256": "bfbb5067eb2da9857069139f12d019bb0f599babc89730aeb4accb1a77916991"
+        },
+        {
+          "id": "FJ3020",
+          "name": "right superior pulmonary vein",
+          "sha256": "074ba67bb3db8f93d6ac7d4e9d2bd1ddcca6e54a2bcb765ec146a9fd30bb3aa8"
+        },
+        {
+          "id": "FJ2925",
+          "name": "left superior pulmonary vein",
+          "sha256": "e87124704e4ca94bfe3206a571e464fe8ccc41afe0f36ee5ccf46cf00aaf4918"
+        },
+        {
+          "id": "FJ2933",
+          "name": "left superior pulmonary vein",
+          "sha256": "64e0d2deec1d847be95f41a25c616935c9b400f233a2c07a8c453a3441f80a35"
+        }
+      ],
+      "triangles": 2598
+    },
+    {
+      "id": "svc",
+      "category": "vessels",
+      "color": "#4688c9",
+      "fma": [
+        "FMA4720"
+      ],
+      "elements": [
+        {
+          "id": "FJ3645",
+          "name": "superior vena cava",
+          "sha256": "5cc007c2ea51255df641225630e83ddbf3e5c4545dffe4814b098c9199ceb26c"
+        }
+      ],
+      "triangles": 598
+    },
+    {
+      "id": "ivc",
+      "category": "vessels",
+      "color": "#4688c9",
+      "fma": [
+        "FMA10951"
+      ],
+      "elements": [
+        {
+          "id": "FJ3441",
+          "name": "inferior vena cava",
+          "sha256": "7b03ef0464b622d0a839c3c55aedcec2a713b4399112e7ce6efa1ac51861b606"
+        }
+      ],
+      "triangles": 907,
+      "modification": "FJ3659 omitted; FJ3441 clipped at source z=1162 mm, open boundary; no artificial vessel cap."
+    },
+    {
+      "id": "rca",
+      "category": "coronary",
+      "color": "#d68e24",
+      "fma": [
+        "FMA3802"
+      ],
+      "elements": [
+        {
+          "id": "FJ2723",
+          "name": "trunk of right coronary artery",
+          "sha256": "cd008769cb9d565a75bf6b91b5ad3bd482932e37c4747837f6c9446cd23b73a2"
+        }
+      ],
+      "triangles": 4502
+    },
+    {
+      "id": "lad",
+      "category": "coronary",
+      "color": "#e5b533",
+      "fma": [
+        "FMA74912"
+      ],
+      "elements": [
+        {
+          "id": "FJ2631",
+          "name": "trunk of anterior interventricular branch of left coronary artery",
+          "sha256": "ca7d8c0c82982ef1c838cd2224650c810adc3e52aaf6b345f0cdb77d7b068c5e"
+        }
+      ],
+      "triangles": 3032
+    },
+    {
+      "id": "lcx",
+      "category": "coronary",
+      "color": "#cb7336",
+      "fma": [
+        "FMA3895"
+      ],
+      "elements": [
+        {
+          "id": "FJ2649",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "d4833bb0b60ee79f526150ad7ba9124e326aba8cd48000711bf3a6b0997b0ce0"
+        },
+        {
+          "id": "FJ2650",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "dd2c38fdc784311c955fb8b0420d70dfbdf16f0ce6e236a086dc5f350faae04c"
+        },
+        {
+          "id": "FJ2651",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "864567c4b15c3add5a8184edb142766538936e2ef17af4efa25acca67f4344d8"
+        },
+        {
+          "id": "FJ2652",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "fd5ee304558da1d1ffebb01ca7f59b374087667e71d473fe5401f355a2ff161f"
+        },
+        {
+          "id": "FJ2653",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "74fc42fbc783857619dccb5a753b06cbfce9abc6403f14e38f55bbb9fafdad80"
+        },
+        {
+          "id": "FJ2654",
+          "name": "circumflex branch of left coronary artery",
+          "sha256": "4e8467b12ca3374d25807d5de058cfb8d147ad2decd99f6debe57847a83099a1"
+        }
+      ],
+      "triangles": 3018
+    },
+    {
+      "id": "lm",
+      "category": "coronary",
+      "color": "#efc261",
+      "fma": [
+        "FMA3855"
+      ],
+      "elements": [
+        {
+          "id": "FJ2737",
+          "name": "trunk of left coronary artery",
+          "sha256": "22aa075132e33f9a3d3be135515362b03ab84f12a0d641edde35e260fb2cd65b"
+        }
+      ],
+      "triangles": 204
+    },
+    {
+      "id": "myocardium",
+      "category": "wall",
+      "color": "#b77a7b",
+      "fma": [
+        "FMA9457",
+        "FMA9531",
+        "FMA13884"
+      ],
+      "elements": [
+        {
+          "id": "FJ2439",
+          "name": "wall of right atrium",
+          "sha256": "6e87510c607541b53b124f8224b6be74cb9b7351e29102246053b30a7260d8dd"
+        },
+        {
+          "id": "FJ2438",
+          "name": "wall of left atrium",
+          "sha256": "ad28c5925374c6648bafb77ac9a89163316c101559cb730906208c96266ae078"
+        },
+        {
+          "id": "FJ2428",
+          "name": "wall of ventricle",
+          "sha256": "ac3c7d6714bed8cf549c97b013546541cf67e189dad2107092a59758aa3ccc45"
+        }
+      ],
+      "triangles": 62770
+    }
+  ],
+  "glbSHA256": "3b7812a9d5a243cefd60da7e4c0e028967825bb463d25806543b7e33a2a45f28",
+  "bytes": 3273592,
+  "triangles": 127851
+}
